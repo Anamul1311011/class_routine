@@ -28,7 +28,7 @@
       <th scope="row">{{ $data->id }}</th>
       <td>{{ $data->subject->title }}</td>
       <td>{{ $data->classtime->time_duration }}</td>
-      <td>{{ $data->day_id }}</td>
+      <td>{{ $data->day->title }}</td>
 
       {{-- <td>{{ $data->department->title }}</td>
       <td>{{ $data->semester->title }}</td> --}}
